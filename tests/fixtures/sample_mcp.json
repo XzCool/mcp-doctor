@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "python3",
+      "args": ["-m", "mcp_server_filesystem", "/tmp"]
+    },
+    "remote-api": {
+      "url": "https://example.com/mcp/sse"
+    },
+    "broken-path": {
+      "command": "python3",
+      "args": ["-m", "demo", "/this/path/does/not/exist"]
+    }
+  }
+}
