@@ -1,5 +1,7 @@
 # MCP Doctor
 
+**English** | [简体中文](README.zh-CN.md)
+
 **Health checker and diagnostics CLI for [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers.**
 
 As AI coding assistants (Cursor, Claude Desktop, Windsurf) adopt MCP as the standard plugin layer, developers accumulate dozens of MCP servers — each with its own command, env vars, and network endpoint. When something breaks, you get a silent failure in the IDE with no clear signal about *which* server is misconfigured.
