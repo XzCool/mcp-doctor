@@ -40,7 +40,7 @@ pip install mcp-doctor
 Or from source:
 
 ```bash
-git clone https://github.com/tonystjack/mcp-doctor.git
+git clone https://github.com/XzCool/mcp-doctor.git
 cd mcp-doctor
 pip install -e ".[dev]"
 ```

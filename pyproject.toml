@@ -9,7 +9,7 @@ description = "Health checker and diagnostics CLI for Model Context Protocol (MC
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"
-authors = [{ name = "tonystjack" }]
+authors = [{ name = "XzCool" }]
 keywords = ["mcp", "model-context-protocol", "cursor", "claude", "ai-tools", "cli"]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -32,9 +32,9 @@ dev = ["pytest>=8.0", "ruff>=0.4"]
 mcp-doctor = "mcp_doctor.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/tonystjack/mcp-doctor"
-Repository = "https://github.com/tonystjack/mcp-doctor"
-Issues = "https://github.com/tonystjack/mcp-doctor/issues"
+Homepage = "https://github.com/XzCool/mcp-doctor"
+Repository = "https://github.com/XzCool/mcp-doctor"
+Issues = "https://github.com/XzCool/mcp-doctor/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/mcp_doctor"]
